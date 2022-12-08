@@ -4,7 +4,6 @@ CREATE TABLE outbox_message (
     json_content varchar(512) NOT NULL,
     primary key (id)
 );
-﻿
 CREATE TABLE account (
     id varchar(36),
     name varchar(50),
